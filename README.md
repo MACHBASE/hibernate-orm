@@ -21,7 +21,7 @@ and also You can use machbase.jar
     <dependency>
         <groupId>com.machbase.jdbc</groupId>
         <artifactId>machbase</artifactId>
-        <version>350ac83b9</version>
+        <version>{YOUR.MACHBASE.VERSION}</version>
         <scope>system</scope>
         <systemPath>${env.MACHBASE_HOME}/lib/machbase.jar</systemPath>
     </dependency>
@@ -77,4 +77,4 @@ mvn spring-boot:run
 
 ## Reference
 ----
-If you encounter any problem before running, please refer to [Spring Data JPA - Reference Documentation](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference) pages of Spring. Otherwise, please feel free to contant via support email (support@machbase.com) or signals in this repository page!
+If you encounter any problem before running, please refer to [Spring Data JPA - Reference Documentation](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference) pages of Spring and [Machbase Doc](http://endoc.machbase.com:8080)([한국어](http://krdoc.machbase.com/dashboard.action)) pages of Machbase. Otherwise, please feel free to contant via support email (support@machbase.com) or signals in this repository page!
