@@ -10,7 +10,7 @@ import java.util.Calendar;
 
 @ToString
 @Entity
-@Table(name = "t1")
+@Table(name = "log")
 public class User {
     @Id
     private Timestamp _arrival_time;
