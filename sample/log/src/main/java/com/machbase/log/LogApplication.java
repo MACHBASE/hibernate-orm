@@ -30,7 +30,6 @@ public class LogApplication implements CommandLineRunner {
 
         log.info("TestLogApplication...");
         ArrayList<User> userList = new ArrayList<User>();
-        Timestamp time;
 
         repository.save(new User(User.get_arrival_time(), "Nana", 17));
 
